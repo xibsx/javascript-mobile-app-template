@@ -1,6 +1,26 @@
 
 
-```js
+```json
+{
+   // Your project name, this will be used as the name of the entire Gradle project, only English is allowed
+   "__PROJECT_NAME__": "android-app-demo",
+   // Your app name
+   "__APP_NAME__": "Android App Demo",
+   // Your app package name
+   "__PACKAGE_NAME__": "com.highcapable.androidappdemo"
+}
+
+html
+{
+   // Your project name, this will be used as the name of the entire Gradle project, only English is allowed
+   "__PROJECT_NAME__": "android-app-demo",
+   // Your app name
+   "__APP_NAME__": "Android App Demo",
+   // Your app package name
+   "__PACKAGE_NAME__": "com.highcapable.androidappdemo"
+}
+
+xml
 {
    // Your project name, this will be used as the name of the entire Gradle project, only English is allowed
    "__PROJECT_NAME__": "android-app-demo",
