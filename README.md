@@ -1,29 +1,6 @@
 
 
 ```html
-<pre>
-<code id="json-code">
-{
-   "_PROJECT_NAME_": "android-app-demo",
-   "_APP_NAME_": "Android App Demo",
-   "_PACKAGE_NAME_": "com.highcapable.androidappdemo"
-}
-</code>
-</pre>
-<button onclick="copyJSON()">Copy</button>
-
-<script>
-function copyJSON() {
-  const code = document.getElementById('json-code').innerText;
-  navigator.clipboard.writeText(code).then(() => {
-    alert("Copied!");
-  });
-}
-</script>
-```
-
-
-```json
 {
    // Your project name, this will be used as the name of the entire Gradle project, only English is allowed
    "__PROJECT_NAME__": "android-app-demo",
