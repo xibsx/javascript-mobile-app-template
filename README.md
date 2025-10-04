@@ -1,6 +1,6 @@
 
 
-```html
+```js
 {
    // Your project name, this will be used as the name of the entire Gradle project, only English is allowed
    "__PROJECT_NAME__": "android-app-demo",
